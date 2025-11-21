@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+llm_qa_chatbot/
+*.sqlite3
+
+# Environment
+.env
+
+# IDE
+.vscode/

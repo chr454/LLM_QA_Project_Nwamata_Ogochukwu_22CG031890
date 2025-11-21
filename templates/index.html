@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLM QA Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>LLM Question & Answering Web App</h2>
+    <form method="POST">
+        <label>Enter your question:</label><br>
+        <input type="text" name="question" required style="width: 350px;">
+        <br><br>
+        <button type="submit">Ask</button>
+    </form>
+
+    <hr>
+
+    <p><strong>Processed Question:</strong> {{ processed }}</p>
+    <p><strong>LLM Answer:</strong> {{ answer }}</p>
+</body>
+</html>
