@@ -1,4 +1,4 @@
-# LLM Question-Answering Application
+#LLM Question-Answering Application with Grok 4.1 Fast
 
 A lightweight Large Language Model (LLM) question-answering application developed to explore the integration of LLM APIs into both command-line and web-based interfaces.
 
